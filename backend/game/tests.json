@@ -1,0 +1,9 @@
+{
+  "tests": [
+    {
+      "name": "Get leaderboard",
+      "method": "GET",
+      "expectedStatus": 200
+    }
+  ]
+}

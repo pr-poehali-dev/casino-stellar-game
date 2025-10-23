@@ -1,0 +1,13 @@
+{
+  "tests": [
+    {
+      "name": "Get admin data without auth",
+      "method": "GET",
+      "expectedStatus": 401,
+      "expectedBody": {
+        "error": "X-User-Id header required"
+      },
+      "bodyMatcher": "partial"
+    }
+  ]
+}
